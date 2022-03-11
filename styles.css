@@ -1,1 +1,25 @@
+<!DOCTYPE css>
+<css>
+<head>
+<meta charset="utf-8">
+<style>
+body { background-color: rgb(0, 0, 0,);
+}
+body {color: rgb(255,255,255);
+}
+h1 { font-size: 20px;
+}
+p { font-size: 12px;
+}
+p { color: (0,255,0);
+}
 
+div. { border: dotted; wide: 2px;
+  width: 100px;
+  height: 100px;
+}
+
+  
+</style>
+</head>
+</css>
