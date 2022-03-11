@@ -13,12 +13,22 @@
                 color: rgb(0,255,0)
             }
             .tiger { border: dotted 2px;
-                border-width: 2px;
+                width: 100px;
+                height: 100px;
             }
-            ol { list-style-type: letter;
-            }
-            ul { list-style-type: square;
-            }
+            ol{
+    list-style-type: none;    
+}
+
+ol > li{
+    list-style: none;
+    counter-increment: num;
+    counter-increment: letter;
+}
+
+ol > li:before{
+    content: counter(num) counter(letter, upper-alpha) " - ";
+}
                 
         </style>
         
