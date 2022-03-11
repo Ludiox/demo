@@ -21,15 +21,14 @@
 }
 
 ol > li{
-    list-style: none;
-    counter-increment: num;
-    counter-increment: letter;
-}
-
-ol > li:before{
-    content: counter(num) counter(letter, upper-alpha) " - ";
-}
-                
+    list-style: letter;
+            }
+            ul {
+                list-style-type:none;
+            }
+            ul>li{
+                list-style: square;
+            }
         </style>
         
     </head>
