@@ -1,15 +1,24 @@
-body { background-color: rgb(0, 0, 0,);
+body { color: rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0)
+            }
+            h1 { font-size: 20px;
+            }
+            p { font-size: 12px;
+                color: rgb(0,255,0)
+            }
+            .tiger { border: dotted 2px;
+                width: 100px;
+                height: 100px;
+            }
+            ol{
+    list-style-type: none;    
 }
-body {color: rgb(255,255,255);
-}
-h1 { font-size: 20px;
-}
-p { font-size: 12px;
-}
-p { color: (0,255,0);
-}
-
-div. { border: dotted; wide: 2px;
-  width: 100px;
-  height: 100px;
-}
+            ol>li{
+    list-style: upper-alpha;
+            }
+            ul {
+                list-style-type:none;
+            }
+            ul>li{
+                list-style: square;
+            }
